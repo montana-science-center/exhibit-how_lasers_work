@@ -7,7 +7,7 @@
 ### Settings
 Currently set for:
 * 1-second before motor sleep
-* 30-minutes before laser power off
+* 10-minutes before laser power off
 
 Laser and motor will turn on when the knob is rotated out of its deadband (in ADC units).
 
@@ -68,3 +68,7 @@ This should be replaced with a slip-clutch pot at some point.
 **Red:** B+
 **Blue:** B-
 **Bare** Shield
+
+
+## Software dependencies
+This code requires the [AccelStepper](https://www.arduino.cc/reference/en/libraries/accelstepper/) library from Arduino. This can be installed using Arduino's library manager.
