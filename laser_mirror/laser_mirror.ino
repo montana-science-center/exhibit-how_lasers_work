@@ -5,7 +5,7 @@
 
 // SOFTWARE CONFIG
 const byte sleep_delay_s = 1;           // seconds to wait before putting stepper in low-current mode.
-const byte exhibit_off_delay_m = 30;     // minutes to wait before turning off the exhibit
+const byte exhibit_off_delay_m = 10;     // minutes to wait before turning off the exhibit
 const int stepper_max_steps = 1424;     // number of steps controlled by the knob
 const int stepper_reset_steps = -1500;  // number of steps to ensure mechanical stop is hit
 const int stepper_speed = 2000;         // steps per second
