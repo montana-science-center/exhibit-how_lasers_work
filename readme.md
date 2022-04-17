@@ -71,4 +71,4 @@ This should be replaced with a slip-clutch pot at some point.
 
 
 ## Software dependencies
-This code requires the [AccelStepper](https://www.arduino.cc/reference/en/libraries/accelstepper/) library from Arduino. This can be installed using Arduino's library manager.
+This code requires the [AccelStepper](https://www.arduino.cc/reference/en/libraries/accelstepper/) library. This can be installed using Arduino's library manager.
